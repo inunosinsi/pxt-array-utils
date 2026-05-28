@@ -1,4 +1,4 @@
-//% color="#000000" icon="\uf1e6" block="配列ユーティリティ"
+//% color="#D84315" icon="\uf1e6" block="配列ユーティリティ"
 namespace pxtArrayUtils {
 
     //% block="%array=lists_create_empty の中からいちばん大きい数"
