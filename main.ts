@@ -14,4 +14,18 @@ namespace pxtArrayUtils {
         }
         return tmp
     }
+
+    //% block="%array=lists_create_empty の中からいちばん小さい数"
+    export function min(array: number[]): number {
+        if (array.length == 0) {
+            return 0
+        }
+        let tmp = array[0]
+        for (let v of array) {
+            if (v < tmp) {
+                tmp = v
+            }
+        }
+        return tmp
+    }
 }
